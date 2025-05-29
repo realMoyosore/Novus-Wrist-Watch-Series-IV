@@ -1,0 +1,66 @@
+body {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  background-color: #000000;
+  color: #000000;
+  margin: 0;
+}
+
+.main-container {
+    margin: 5% auto;
+    width: 40%;
+    min-height: 60vh;
+    background-color: #b6afd6;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main-card {
+  width: 400px;
+  background-color: #ffffff;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.tag {
+  background-color: #fdf8a8;
+  color: #000000;
+  position: absolute;
+  top: 10px;
+  left: -10px;
+  padding: 0 20px 0 10px;
+  border-radius: 30px 100px 100px 30px;
+  font-size: 0.7em;
+}
+
+.image-section {
+  position: relative; /* Positioned the tag */
+}
+
+#watch-image {
+  display: block; /* Removed extra space below image */
+  width: 100%;
+  border-radius: 10px 10px 0 0;
+}
+
+.text-section {
+  padding: 20px;
+}
+
+#product-heading {
+  font-size: 1.5em;
+  margin: 0 10px 5px 0;
+  font-weight: bold;
+  display: inline; /* This made the heading and subheading to stay next to each other */
+}
+
+#product-sub-heading {
+  color: #6c757d;
+  font-size: 1em;
+  margin-bottom: 15px;
+  display: inline; /* This made the heading and subheading to stay next to each other */
+}
+
+#product-description {
+  line-height: 1.4;
+}
