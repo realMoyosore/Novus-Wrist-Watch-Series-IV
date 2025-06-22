@@ -36,4 +36,4 @@ A modern, responsive web page showcasing the Novus Wrist Watch. This project dem
 
 ---
 
-*Created for AltSchool Africa Assignment.*
+*Created for AltSchool Africa Project.*
